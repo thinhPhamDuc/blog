@@ -24,9 +24,9 @@ class LoginController extends Controller
                 'email.email' => 'Email không đúng định dạng'
             ]);
         $credential = $request->only('email', 'password');
-
+//    dd($credential = $request->only('email', 'password'));
         $remember = $request->has('remember');
-
+//        dd($remember = $request->has('remember'));
         if(auth()->attempt($credential, $remember)){
 
             if (auth()->user()->email_verified_at === null){

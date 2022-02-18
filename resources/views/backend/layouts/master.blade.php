@@ -19,7 +19,7 @@
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css" id="theme-styles">
 </head>
-<body class="sb-nav-fixed"> 
+<body class="sb-nav-fixed">
 @include('backend.layouts.navbar')
 @yield('content')
 @include('backend.layouts.footer')

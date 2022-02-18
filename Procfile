@@ -1,0 +1,1 @@
+web: vendor/bon/heroku-php-apache2 public/

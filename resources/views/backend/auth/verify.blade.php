@@ -27,7 +27,6 @@
                                         Link kích hoạt tài khoản đã được gửi đến Email của bạn
                                     </div>
                                 @endif
-
                                 <p>Trước khi tiếp tục, hãy kiểm tra Email của bạn</p>
                                 <p>Nếu bạn chưa nhận được Email</p>
                                 <form class="d-inline" method="POST" action="{{ route('resend') }}">
